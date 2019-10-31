@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="height-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Righteous|Vibes&display=swap" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+    <link rel="stylesheet" href="./star/star.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="formBox.css">
+    
+    <title>Food Review :D</title>
+</head>
+
+
+<body>
+        
+        <div id="app" class="height-100"></div> 
+       
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBdmf8sC6p35yUCTrxuk5XK_QxjCe74wgQ",
+            authDomain: "mindx-foodreview.firebaseapp.com",
+            databaseURL: "https://mindx-foodreview.firebaseio.com",
+            projectId: "mindx-foodreview",
+            storageBucket: "",
+            messagingSenderId: "825188848164",
+            appId: "1:825188848164:web:cdb99f9c0d0f3e6c4a3eb1",
+            measurementId: "G-GEMP73HQ5M"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        var db= firebase.firestore();
+    </script>
+
+<script src="./index.js" type="module"></script>
+<script src="./formBox.js"></script>  
+
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+.sticky-top
+{
+    position: sticky;
+    top:0;
+    /* padding: 60px; */
+    
+    
+}
+
+.web-name-banner{
+    font-size: 30px;
+    color: aqua;
+    background-color: rgb(179, 71, 71);
+    height:100px;
+    
+}
+
+.flex-container{
+    display: flex;  
+}
+
+
+.grow-1{
+    flex-grow:1;
+}
+.grow-2{
+    flex-grow:2;
+}
+.grow-3{
+    flex-grow:3;
+}
+
+
+
+.main-nav{
+    height: 40px;
+    background-color:rgb(173, 173, 173);
+    /* border-bottom: 3px solid slateblue;
+    border-left: 3px solid slateblue;
+    border-right: 3px solid slateblue; */
+    color: blue;
+    overflow: hidden;
+    /* border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px; */
+    
+}
+
+.nav-item
+{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: bold;
+  font-size: 17px;
+  cursor: pointer;
+  border-right: 1px solid slateblue;
+}
+
+.nav-item:hover{
+    background-color:  coral;
+    color: white;
+    font-style:  italic;
+    transition: all .3s ease;
+}
+
+.main-nav input[type=text]
+{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 6px;
+  margin-top: 4px;
+  font-size: 17px;
+  border: none;
+}
+
+.main-nav button
+{
+  float: right;
+  padding: 6px 5px;
+  margin-top: 4px;
+  margin-right: 9px;
+  background: #ddd;
+  font-size: 14px;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.search-container{
+    float: right;
+}
+
+.userReview{
+    height: 200px;
+    width: 70%;
+    border: 1px solid blue;
+}
+.width-100{
+width: 100%;
+}
+
+.cancel{
+    background-color:gray;
+    color: red;
+}
+
+.vertical-10{
+    height: 10px;
+}
+.vertical-20{
+    height: 20px;
+}
+
+small{
+    border: 1px solid salmon;
+    border-radius: 10px;
+    color: rgb(189, 212, 255);
+    font-size: 15px;
+    background: rgba(228, 96, 79, 0.658);
+    
+ font-family: 'Abril Fatface', cursive;
+}
+
+.show-user-review{
+ font-family: 'Vibes', cursive; 
+ border: 1px solid rgb(255, 210, 206);
+ background: rgba(232, 245, 216, 0.836);
+ border-radius: 5px;
+}
+
+.vertical-scroll{
+    overflow-y: auto;
+}
+
+.star-outer{
+    position: relative;
+    display: inline-block;
+}
+
+.star-inner{
+    position: absolute;
+    top:0;
+    left:0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+/* .star-outer::before{
+    content:"\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+}
+
+.star-inner::before{
+    content:"\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+} */
+
+
+.rating-static {
+ width: 60px;
+ height: 16px;
+display: block;
+background: url('http://www.itsalif.info/blogfiles/rating/star-rating.png') 0 0 no-repeat;
+/* background-size:240px 64px; */
+    }
+
+.rating-5 { background-position: 0 0; }
+.rating-4 { background-position: -12px 0; } 
+.rating-3 { background-position: -24px 0; }
+.rating-2 { background-position: -36px 0; }
+.rating-1 { background-position: -48px 0; }
+.rating-0 { background-position: -60px 0; }
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+#head{
+    color:white;
+    background-color: orange;
+    min-height: 700px;
+    border: 1px solid #CDCDCD;
+    background-color: rgb(245, 152, 13);
+    margin-top: 5px;
+    margin-bottom:10px;
+}
+ 
+#left{
+    width: 20%;
+    min-height: 500px;
+    float:left;
+    background-color: rgb(209, 207, 203);
+    border: 1px solid #CDCDCD;
+    color: black;
+    cursor: pointer;
+}
+
+#content{
+    min-width: 25%;
+    overflow: auto;
+    min-height: 500px;
+    background-color: azure;
+    border: 1px solid #CDCDCD;
+}
+
+.bm{
+    margin: 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+/* ---------------------------------- */
+.hw{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.pic1{
+    overflow: hidden;
+    width: 100px;
+    justify-content:center;
+    cursor: pointer;
+    padding: 4px;
+    margin-bottom: 0px;
+    height: auto;
+    width: auto;
+}
+.loti1{
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    margin-top: -13px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    background-color: rgb(255, 201, 102);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: Black;
+    justify-content:center;
+    align-items: center;
+    padding: 6px;
+}
+/* ------------------------------------------------- */
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;  /* tự động xuống dòng */
+}
+.item{
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+}
